@@ -15,5 +15,9 @@ Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode.
 
 ## To use the svg loader:
+
 `import SVG from 'react-inlinesvg';`
-`import Example from './location/example.svg'`
+
+`import ExampleSvg from './location/example.svg'`
+
+`<SVG src={ExampleSvg} />`
